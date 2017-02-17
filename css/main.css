@@ -30,4 +30,24 @@ body {
 
 .nav {
   background-color: #e2e2e2;
+  text-align: center;
+}
+
+a {
+  color: #0074d9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.grid {
+  display: inline-block;
+}
+
+h1 {
+  text-align: left;
 }
