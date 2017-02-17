@@ -21,6 +21,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .img-flex {
@@ -28,26 +29,59 @@ body {
   width: 100%;
 }
 
-.nav {
-  background-color: #e2e2e2;
-  text-align: center;
-}
-
 a {
   color: #0074d9;
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus,
+.current {
   text-decoration: none;
   background-color: #0074d9;
   color: #fff;
 }
 
 .grid {
-  display: inline-block;
+  background-color: #e2e2e2;
+  margin: 0;
 }
 
 h1 {
-  text-align: left;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+nav {
+  text-align: center;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
 }
